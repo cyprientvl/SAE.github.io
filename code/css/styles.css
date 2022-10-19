@@ -161,3 +161,45 @@ ul li button{
 }
 
 /* fin nav */
+
+/*css footer*/
+
+footer {
+    display: flex;
+    background-color: #2E6BF5;
+    color: white;
+    
+    
+}
+footer p{
+    margin: 20px auto;
+}
+footer div{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 10px auto;
+    
+}
+footer span{
+    display: flex;
+    align-items: end;
+    margin-left: 800px;
+    margin-bottom: 20px;
+}
+
+div.test{
+    margin: 0px;
+}
+
+div.test p{
+    margin: 0px;
+}
+
+
+ion-icon{
+}
+
+.test{
+    display: flex;
+    align-items: center;
+}
