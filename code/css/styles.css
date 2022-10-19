@@ -65,10 +65,16 @@ footer {
     display: flex;
     background-color: #2E6BF5;
     color: white;
+    
+    
+}
+footer p{
+    margin: 20px auto;
 }
 footer div{
     margin-left: 50px;
     margin-right: 50px;
+    margin: 10px auto;
     
 }
 footer span{
