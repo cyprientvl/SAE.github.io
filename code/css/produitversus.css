@@ -1,0 +1,33 @@
+.closetransi{
+    height: 0px !important;
+    width: 0px !important;
+}
+
+.transiclose{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: var(--blue);
+    transition: 0.3s;
+    z-index: 11 !important;
+}
+
+.title{
+    margin-top: 50px;
+}
+
+h1{
+    position: relative;
+}
+
+h1:before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background-color: var(--blue);
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
