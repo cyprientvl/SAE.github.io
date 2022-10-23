@@ -1,6 +1,4 @@
-:root{
-    --blue: #2E6BF5;
-}
+
 
 main{
     width: 90%;
@@ -188,16 +186,6 @@ div.versus-bottom a{
     transition: 0.3s;
 }
 
-.transiclose{
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    background-color: var(--blue);
-    transition: 0.3s;
-    z-index: 11 !important;
-    border-radius: 30px;
-}
-
 .transipage{
     height: 0px;
     width: 0px;
@@ -205,8 +193,7 @@ div.versus-bottom a{
     background-color: var(--blue);
     transition: 0.3s;
     z-index: 11 !important;
-    
-    border-radius: 30px;
+   
 }
 
 .opentransi{
@@ -214,7 +201,3 @@ div.versus-bottom a{
     width: 100%;
 }
 
-.closetransi{
-    height: 0px !important;
-    width: 0px !important;
-}

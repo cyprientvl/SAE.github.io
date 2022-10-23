@@ -1,3 +1,7 @@
+:root{
+    --blue: #2E6BF5;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -277,7 +281,7 @@ footer {
     display: flex;
     background-color: #2E6BF5;
     color: white;
-    
+    margin-top: 100px;
     
 }
 footer p{
