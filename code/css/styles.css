@@ -176,110 +176,6 @@ ul li button{
 
 /*css footer*/
 
-header{
-    display: block;
-    position: relative;
-    width: 100%;
-    background-color: #F4F5F7;
-    z-index: 10;
-    border-bottom: 2px solid white;
-    border-bottom-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-}
-header nav{
-    display:flex;
-    width: 100%;
-}
-header nav div{
-    margin: auto 100px auto auto;
-}
-header nav div ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-}
-header nav div ul li{
-    font-size: 15px;
-    margin: 15px 40px;
-    display: flex;
-    align-items: center;
-    transition: .2s;
-}
-header nav div ul li a{
-    color: black;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    transition: .2s;
-}
-header nav div ul li a::before{
-    content: "";
-    position: absolute;
-    transform: scaleX(0);
-    left: 0;
-    transition: .2s;
-}
-header nav div ul li a:hover::before{
-    transform: scaleX(1);
-}
-#boutique::before, header nav div ul li a:not(.quisommesnous a):hover::before{
-    content: "";
-    position: absolute;
-    width: 300%;
-    height: 2px;
-    bottom: -34px;
-    left: -60px;
-    background: radial-gradient(circle, rgba(46,107,245,1) 10%, rgba(255,255,255,1) 100%);
-    visibility: visible;
-    transform: scaleX(1);
-    transition: all 0.3s ease-in-out;
-    z-index: -1;
-}
-#logoclick{
-    margin: 5px 100px;
-}
-#logo{
-    width: 50px;
-}
-ul li input{
-    width: 250px;
-}
-ul li input, ul li button{
-    background-color: white;
-    border: none;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    padding: 7px 20px;
-    border-radius: 100px;
-}
-ul li input::placeholder{
-    color: #D7D7D7;
-}
-ul li button{
-    background-color: var(--blue);
-    color: white;
-    transform: translateX(-30px);
-}
-.quisommesnous{
-    background-color: var(--blue);
-    padding: 7px 20px;
-    border-radius: 10px;
-}
-.quisommesnous:hover{
-    background-color: white;
-}
-.quisommesnous:hover a{
-    color: var(--blue);
-}
-.quisommesnous a{
-    color: white;
-}
-
-/* fin nav */
-
-/*css footer*/
-
 footer {
     display: flex;
     background-color: var(--blue);
@@ -311,11 +207,12 @@ div.test p{
     margin: 0px;
 }
 
-
-ion-icon{
-}
-
 .test{
     display: flex;
     align-items: center;
+}
+
+
+footer i{
+    margin: 0 10px 0 0;
 }

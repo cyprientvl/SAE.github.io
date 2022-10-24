@@ -39,7 +39,7 @@ h1 span::after{
     transition: .2s;
 }
 
-.listeactus{
+.listeactus, .listeversus{
     width: 50%;
     margin: auto;
     padding: 50px;
@@ -55,24 +55,60 @@ h3{
     margin: 70px 0;
 }
 
-.block div{
+.listeactus .block div{
     display: inline-block;
     width: 49%;
     vertical-align: middle;
 }
 
-.block div p{
+.listeactus .block div p{
     margin: 15px 0;
     max-width: 80%;
     text-align: justify;
 }
 
-.block div img{
+.listeactus .block div img{
     margin: auto;
     width: 80%;
     display: block;
 }
 
-.block:nth-of-type(2n) div:nth-of-type(2) p, .block:nth-of-type(2n) div:nth-of-type(2) h3, .block:nth-of-type(2n) div:nth-of-type(2) a{
+.listeactus .block:nth-of-type(2n) div:nth-of-type(2) p, .block:nth-of-type(2n) div:nth-of-type(2) h3, .block:nth-of-type(2n) div:nth-of-type(2) a{
     margin-left: 10%;
+}
+
+
+.listeversus{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listeversus .block{
+    width: 350px;
+    margin: 25px;
+    text-align: center;
+}
+
+.listeversus .block div:nth-of-type(1) img{
+    position: relative;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.listeversus .block .line-blue{
+    height: 3px;
+}
+
+.listeversus .block div:nth-of-type(3) p{
+    display: inline-block;
+    width: 49%;
+    margin: 25px 0;
+}
+
+.listeversus .block div:nth-of-type(3) p:nth-last-of-type(1){
+    text-align: right;
+}
+.listeversus .block div:nth-of-type(3) p:nth-last-of-type(2){
+    text-align: left;
 }
