@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #2E6BF5;
+    color: var(--blue);
     text-align: center;
     font-size: 30px;
 }
@@ -54,7 +54,7 @@ h2{
 
 .line-blue{
     height: 10px;
-    background-color: #2E6BF5;
+    background-color: var(--blue);
     width: 50%;
     border-radius: 10px;
     margin: auto;
@@ -150,12 +150,12 @@ ul li input::placeholder{
 	color: #D7D7D7;
 }
 ul li button{
-	background-color: #2E6BF5;
+	background-color: var(--blue);
 	color: white;
 	transform: translateX(-30px);
 }
 #quisommesnous{
-	background-color: #2E6BF5;
+	background-color: var(--blue);
 	padding: 7px 20px;
 	border-radius: 10px;
 }
@@ -163,7 +163,7 @@ ul li button{
     background-color: white;
 }
 #quisommesnous:hover a{
-    color: #2E6BF5;
+    color: var(--blue);
 }
 #quisommesnous a{
 	color: white;
@@ -254,12 +254,12 @@ ul li input::placeholder{
     color: #D7D7D7;
 }
 ul li button{
-    background-color: #2E6BF5;
+    background-color: var(--blue);
     color: white;
     transform: translateX(-30px);
 }
 #quisommesnous{
-    background-color: #2E6BF5;
+    background-color: var(--blue);
     padding: 7px 20px;
     border-radius: 10px;
 }
@@ -267,7 +267,7 @@ ul li button{
     background-color: white;
 }
 #quisommesnous:hover a{
-    color: #2E6BF5;
+    color: var(--blue);
 }
 #quisommesnous a{
     color: white;
@@ -279,7 +279,7 @@ ul li button{
 
 footer {
     display: flex;
-    background-color: #2E6BF5;
+    background-color: var(--blue);
     color: white;
     margin-top: 100px;
     
