@@ -33,7 +33,7 @@ body{
 .frame{
     width: 70%;
     margin: auto;
-    height: 100vh;
+    height: auto;
 }
 
 h1{
