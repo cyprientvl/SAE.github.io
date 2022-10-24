@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -37,7 +38,9 @@ body{
 
 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
+    color: #08264A;
+    padding: 100px 0 20px 0;
 }
 
 h2{
@@ -116,7 +119,7 @@ header nav div ul li a::before{
 header nav div ul li a:hover::before{
     transform: scaleX(1);
 }
-#boutique::before, header nav div ul li a:not(#quisommesnous a):hover::before{
+#boutique::before, header nav div ul li a:not(.quisommesnous a):hover::before{
     content: "";
     position: absolute;
     width: 300%;
@@ -154,18 +157,18 @@ ul li button{
 	color: white;
 	transform: translateX(-30px);
 }
-#quisommesnous{
+.quisommesnous{
 	background-color: var(--blue);
 	padding: 7px 20px;
 	border-radius: 10px;
 }
-#quisommesnous:hover{
+.quisommesnous:hover{
     background-color: white;
 }
-#quisommesnous:hover a{
+.quisommesnous:hover a{
     color: var(--blue);
 }
-#quisommesnous a{
+.quisommesnous a{
 	color: white;
 }
 
@@ -220,7 +223,7 @@ header nav div ul li a::before{
 header nav div ul li a:hover::before{
     transform: scaleX(1);
 }
-#boutique::before, header nav div ul li a:not(#quisommesnous a):hover::before{
+#boutique::before, header nav div ul li a:not(.quisommesnous a):hover::before{
     content: "";
     position: absolute;
     width: 300%;
@@ -258,18 +261,18 @@ ul li button{
     color: white;
     transform: translateX(-30px);
 }
-#quisommesnous{
+.quisommesnous{
     background-color: var(--blue);
     padding: 7px 20px;
     border-radius: 10px;
 }
-#quisommesnous:hover{
+.quisommesnous:hover{
     background-color: white;
 }
-#quisommesnous:hover a{
+.quisommesnous:hover a{
     color: var(--blue);
 }
-#quisommesnous a{
+.quisommesnous a{
     color: white;
 }
 
