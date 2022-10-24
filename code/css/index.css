@@ -38,3 +38,41 @@ h1 span::after{
     text-align: center;
     transition: .2s;
 }
+
+.listeactus{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.block{
+    padding: 25px;
+    margin: 70px 0;
+}
+
+.block div{
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.block div p{
+    margin: 15px 0;
+    max-width: 80%;
+    text-align: justify;
+}
+
+.block div img{
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+.block:nth-of-type(2n) div:nth-of-type(2) p, .block:nth-of-type(2n) div:nth-of-type(2) h3, .block:nth-of-type(2n) div:nth-of-type(2) a{
+    margin-left: 10%;
+}
