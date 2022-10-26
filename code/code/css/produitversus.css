@@ -344,11 +344,7 @@ h3{
 
 .add-avis:hover{
     background-color: var(--blue);
-    
-}
-
-.add-avis:hover a{
-   color: white;
+    color: white;
 }
 
 

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/ajouteravis.css">
 	<!-- Font Awesome Icon Library -->
     <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
 	<title>HIGH TECH COMPARE</title>
@@ -34,9 +34,60 @@
         </nav>
     </header>
 
-    <main>
+	<main>
+		<div class="frame">
+			<div class="block">
+				<h1>Ajouter un avis</h1>
 
-    </main>
+				<div class="flex">
+					<div class="left">
+						<img src="img/iphone13.png">
+						<p>Apple</p>
 
+						<div class="date">
+							<p>Date de sortie:</p>
+							<p>12/06/2021</p>
+
+						</div>
+
+						<p>200$</p>
+
+					</div>
+
+					<div class="right">
+
+						<input type="text" name="" placeholder="Nom utilisateur">
+						<input type="text" name="" placeholder="Iphone 12">
+
+						<h2>Ajouter une note</h2>
+
+						<div class="star">
+							<i onclick="star(1)" id="etoile1" class="fa-solid fa-star"></i>
+							<i onclick="star(2)" id="etoile2" class="fa-solid fa-star"></i>
+							<i onclick="star(3)" id="etoile3" class="fa-solid fa-star"></i>
+							<i onclick="star(4)" id="etoile4" class="fa-solid fa-star"></i>
+							<i onclick="star(5)" id="etoile5" class="fa-solid fa-star"></i>
+						</div>
+
+
+						<h3>Commentaire</h3>
+
+						<textarea></textarea>
+
+						<div class="publier">
+							<a href="produitversus.html">Publier</a>
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</main>
+
+	<script src="js/nav.js"></script>
+	<script src="js/ajouteravis.js"></script>
 </body>
-<script src="js/nav.js"></script>
