@@ -2,6 +2,10 @@ section p{
     padding: 20px 20px 20px 20px;
 }
 
+#horaire{
+    padding: 0px 20px 0px 40px;
+}
+
 .frame{
     height: auto;
 }
@@ -26,6 +30,7 @@ img{
 .caroussel img{
     width: 300px;
     padding: 30px 30px 30px 30px;
+    opacity: 0.5;
 }
 
 .caroussel{
@@ -34,8 +39,8 @@ img{
 }
 
 .cercle { 
-    height: 100px; 
-    width: 100px; 
+    height: 72x; 
+    width: 76px; 
     background-color: #2E6BF5;
     border-radius: 50%;
     margin: auto;
@@ -44,8 +49,14 @@ img{
 
 #centre{
     display: flex;
-    padding-left: 41px;
-    padding-top: 20px;
+    padding-left: 24px;
+    padding-top: 7px;
     font-size: 40px;
     color: white;
+}
+
+.milieu img{
+    width: 346px;
+    padding-top: 20px;
+    opacity: 1;
 }
