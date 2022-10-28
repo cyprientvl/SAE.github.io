@@ -17,3 +17,59 @@ h3{
 .fa-star{
     color: #FFB400;
 }
+
+.listeactus .block .left{
+    width: 20%;
+}
+.listeactus .block .right{
+    width: 79%;
+}
+
+.listeactus .block div img{
+    width: 100%;
+}
+
+.listeactus .block .right div:first-of-type{
+    width: 65%;
+}
+
+.listeactus .block .right div:last-of-type{
+    width: 34%;
+}
+
+.listeactus .block .right div:last-of-type p{
+    margin: 0;
+    max-width: 100%;
+    text-align: right;
+}
+
+.listeactus .block .right div:last-of-type p:first-of-type{
+    margin-bottom: 100px;
+}
+
+.listeactus .block div:nth-of-type(2) p, .block div:nth-of-type(2) h3, .block div:nth-of-type(2) a{
+    margin-left: 10%;
+}
+
+.etoile{
+    position: absolute;
+}
+
+#etoile1{
+    left: 212px;
+    top: 177px;
+    z-index: -1;
+    transform: rotate(32.55deg);
+}
+
+#etoile2{
+    left: 70px;
+    top: 400px;
+    transform: rotate(-21.73deg);
+}
+
+#etoile3{
+    left: 45px;
+    top: 650px;
+    transform: rotate(-10deg);
+}

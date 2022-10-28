@@ -180,16 +180,16 @@ header nav div ul li a::before{
 header nav div ul li a:hover::before{
     transform: scaleX(1);
 }
-#boutique::before, header nav div ul li a:not(.quisommesnous a):hover::before{
+.active::before, header nav div ul li a:not(.quisommesnous a):hover::before {
     content: "";
     position: absolute;
     width: 300%;
     height: 2px;
     bottom: -34px;
-    left: -60px;
+    left: 50%;
     background: radial-gradient(circle, rgba(46,107,245,1) 10%, rgba(255,255,255,1) 100%);
     visibility: visible;
-    transform: scaleX(1);
+    transform: scaleX(1) translateX(-50%);
     transition: all 0.3s ease-in-out;
     z-index: -1;
 }
