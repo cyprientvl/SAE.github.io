@@ -1,5 +1,3 @@
-
-
 main{
     width: 90%;
     height: 600px;
@@ -200,6 +198,7 @@ div.versus-bottom a{
     height: 0px;
     width: 0px;
     position: absolute;
+    top: 0px;
     background-color: var(--blue);
     transition: 0.3s;
     z-index: 11 !important;
@@ -211,6 +210,12 @@ div.versus-bottom a{
     width: 100%;
 }
 
+
+@media screen and (max-width: 1021px){
+    main{
+        margin-top: 100px !important;
+    }
+}
 
 @media screen and (max-width:  646px){
 
@@ -236,3 +241,4 @@ div.versus-bottom a{
     }
 
 }
+
