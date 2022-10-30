@@ -67,6 +67,10 @@ textarea{
     color: #D7D7D7;
 }
 
+.right i:hover{
+    color: yellow;
+}
+
 .jaune{
     color: yellow !important;
 }
@@ -94,10 +98,21 @@ textarea{
 @media screen and (max-width: 1020px){
 
     .frame{
-        width: 90%;
+        width: 98%;
     }
 
-    
+}
+
+@media screen and (max-width: 800px){
+
+    .left{
+        display: none;
+    }
+    .right{
+        align-items: center;
+        width: 100%;
+    }
+
 
 }
 
