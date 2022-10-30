@@ -69,7 +69,7 @@ div.mid{
 	padding: 0px 10px;
 }
 
-input{
+main input{
 	background-color: white;
 	border: none;
 	border-radius: 20px;
@@ -80,7 +80,7 @@ input{
 	width: 100%;
 }
 
-input[type="submit"]{
+main input[type="submit"]{
 	height: 40px;
 	margin: 10px auto;
 	width: 100%;
@@ -91,7 +91,7 @@ input[type="submit"]{
 	cursor: pointer;
 }
 
-input[type="submit"]:hover{
+main input[type="submit"]:hover{
 	color: white;
 	background-color: var(--blue);
 
