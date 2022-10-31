@@ -78,6 +78,7 @@ main input{
 	color: var(--blue);
 	padding-left: 10px;
 	padding: 2px;
+	padding-left: 10px;
 	width: 100%;
 }
 
