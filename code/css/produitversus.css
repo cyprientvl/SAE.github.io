@@ -251,7 +251,8 @@ h3{
 }
 
 .block{
-    height: 350px;
+    height: auto;
+    min-height: 300px;
 }
 
 .parte-note{
@@ -344,7 +345,11 @@ h3{
 
 .add-avis:hover{
     background-color: var(--blue);
-    color: white;
+    
+}
+
+.add-avis:hover a{
+   color: white;
 }
 
 
@@ -356,53 +361,7 @@ h3{
     margin: 90px 30px;
 }
 
-@media screen and (max-width: 1340px){
-    .content{
-        flex-direction: column !important;
-        justify-content: center;
-        height: auto;
-    }
 
-    .right{
-        padding-top: 50px;
-    }
-
-    .left{
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 1050px){
-
-    .parte-note{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .comment-right p{
-        font-size: 12px !important;
-    }
-
-    .bar{
-        margin: 30px 0px;
-    }
-
-    .frame-mid .block{
-        height: 500px;
-    }
-
-}
-
-@media screen and (max-width: 850px){
-    .content{
-        min-width: 600px;
-    }
-
-    .content-all{
-        min-width: 600px;
-    }
-}
 
 .open{
     transform: translateY(-10px) ;
@@ -500,3 +459,86 @@ h4{
     font-size: 25px;
 }
 
+
+@media screen and (max-width: 1340px){
+    .content{
+        flex-direction: column !important;
+        justify-content: center;
+        height: auto;
+    }
+
+    .right{
+        padding-top: 50px;
+    }
+
+    .left{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1050px){
+
+    .parte-note{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .comment-right p{
+        font-size: 12px !important;
+    }
+
+    .bar{
+        margin: 30px 0px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:  860px){
+    .frame{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .content{
+        min-width: 600px;
+    }
+
+    .content-all{
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width:  700px){
+
+    .frame-bottom .block .all{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .block{
+        height: auto;
+    }
+
+    .progress{
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    .left{
+        transform: scale(0.8);
+        
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:  540px){
+    .left{
+        align-self: flex-start;
+        margin-left: 80px;
+
+    }
+}

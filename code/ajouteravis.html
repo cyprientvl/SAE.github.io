@@ -4,14 +4,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/ajouteravis.css">
 	<!-- Font Awesome Icon Library -->
     <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
 	<title>HIGH TECH COMPARE</title>
 </head>
 <body>
-	<header>
-		<nav>
+    <header>
+        <nav>
             <a href="index.html" id="logoclick"><img src="img/logo.png" alt="logo" id="logo"></a>
             <div id="nav-icon4">
                 <span></span>
@@ -26,61 +26,90 @@
                     </li>
                     <li><a href="actus.html">Actus</a></li>
                     <li><a href="versus.html">Versus</a></li>
-                    <li><a href="https://auchan.fr" id="boutique">Boutique</a></li>
                     <li><a href="tests.html">Tests</a></li>
+                    <li><a href="login.html">Login</a></li>
                     <li class="quisommesnous"><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
                 </ul>
             </div>
-		</nav>
-	</header>
+        </nav>
+    </header>
 
 	<main>
-		
-		<div class="block">
-			<h1>Ajouter un avis</h1>
+		<div class="frame">
+			<div class="block">
+				<h1>Ajouter un avis</h1>
 
-			<div class="left">
-				<img src="iphone 11 3.png">
-				<p>Apple</p>
+				<div class="flex">
+					<div class="left">
+						<img src="img/iphone13.png">
+						<p>Apple</p>
 
-				<div class="date">
-					<p>Date de sortie</p>
-					<p>DD/MM/YEAR</p>
+						<div class="date">
+							<p>Date de sortie:</p>
+							<p>12/06/2021</p>
+
+						</div>
+
+						<p>200$</p>
+
+					</div>
+
+					<div class="right">
+
+						<input type="text" name="" placeholder="Nom utilisateur">
+						<input type="text" name="" placeholder="Iphone 12">
+
+						<h2>Ajouter une note</h2>
+
+						<div class="star">
+							<i onclick="star(1)" id="etoile1" class="fa-solid fa-star"></i>
+							<i onclick="star(2)" id="etoile2" class="fa-solid fa-star"></i>
+							<i onclick="star(3)" id="etoile3" class="fa-solid fa-star"></i>
+							<i onclick="star(4)" id="etoile4" class="fa-solid fa-star"></i>
+							<i onclick="star(5)" id="etoile5" class="fa-solid fa-star"></i>
+						</div>
+
+
+						<h3>Commentaire</h3>
+
+						<textarea></textarea>
+
+						<div class="publier">
+							<a href="produitversus.html">Publier</a>
+						</div>
+
+					</div>
 
 				</div>
 
-				<p>200$</p>
 
 			</div>
-
-			<div class="right">
-
-				<input type="text" name="">
-				<input type="text" name="">
-
-				<h2>Ajouter une note</h2>
-
-				<i class="fa-solid fa-star"></i>
-				<i class="fa-solid fa-star"></i>
-				<i class="fa-solid fa-star"></i>
-				<i class="fa-regular fa-star"></i>
-				<i class="fa-regular fa-star"></i>
-
-				<h3>Commentaire</h3>
-
-				<textarea>Sheeeeeeeeeeeeeeeeeeeeeeeeeeeeesh</textarea>
-
-				<div class="publier"></div>
-
-			</div>
-
-			
-
 		</div>
 
 	</main>
 
+	<footer>
+        <div>
+            <strong><p>Nous contacter</p></strong>
+            <p>e-mail</p>
+            <p>Support</p>
+            <p>Tel : 00 00 00 00</p>
+        </div>
+        <div>
+            <strong><p>À propos</p></strong>
+            <p>Accueil</p>
+            <p>Condition générales</p>
+            <p>Données personnelles</p>
+        </div>
+        <div>
+            <strong><p>Les réseaux</p></strong>
+            <div class="test"><i class="fa-brands fa-instagram"></i><p> Instagram</p></div>
+            <p>Indeed</p>
+            <div class=test><i class="fa-brands fa-youtube"></i><p> Youtube</p></div>
+        </div>
+        <span>Copyright © 2022 High Tech Compare. All rights reserved.</span>
+    </footer>
 
-
+	<script src="js/nav.js"></script>
+	<script src="js/ajouteravis.js"></script>
 </body>
-<script src="js/nav.js"></script>

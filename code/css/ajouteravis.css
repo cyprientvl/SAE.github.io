@@ -1,0 +1,127 @@
+h1{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.flex{
+    display: flex;
+}
+
+.block{
+    margin-top: 100px;
+    height: auto;
+    
+}
+
+.left{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+
+}
+
+.left p{
+    font-size: 20px;
+}
+
+.left img{
+    width: 200px
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.right input {
+    border-radius: 20px;
+    background-color: #F7F8F9;
+    border: none;
+    padding: 5px;
+    margin: 15px 0px;
+    width: 30%;
+    min-width: 150px;
+}
+
+h2{
+    font-size: 20px;
+    text-align: left;
+}
+
+.star{
+    margin: 20px 0px;
+}
+
+textarea{
+    resize: none;
+    margin: 30px 0px;
+    width: 80%;
+    min-height: 200px;
+}
+
+.right i {
+    font-size: 20px;
+    color: #D7D7D7;
+}
+
+.right i:hover{
+    color: yellow;
+}
+
+.jaune{
+    color: yellow !important;
+}
+
+.publier{
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    padding: 5px 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.date{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1020px){
+
+    .frame{
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .left{
+        display: none;
+    }
+    .right{
+        align-items: center;
+        width: 100%;
+    }
+
+
+}
+
+.publier:hover{
+    background-color: var(--blue);
+    color: white;
+}
+
+
+.publier:hover a{
+    color: white;
+}
