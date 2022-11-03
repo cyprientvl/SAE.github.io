@@ -19,6 +19,7 @@ img{
     margin: 50px 50px 50px 50px;
 }
 
+
 #flex{
     display: flex;
 }
@@ -75,9 +76,24 @@ img{
     user-select: none;
 }
 
+@media screen and (max-width:  1730px){
+    .block img{
+        width: 400px;
+    }
+
+    #flex{
+        align-items: center;
+    }
+}
+
 @media screen and (max-width:  1340px){
     .visu{
         width: 800px;
+    }
+
+    #flex{
+        flex-direction: column;
+
     }
 }
 
@@ -88,6 +104,19 @@ img{
 
     .content-img img{
         opacity: 1 !important;
+    }
+
+    .frame{
+        width: 100%;
+        margin: 0;
+    }
+
+    #flex{
+        margin: 0;
+    }
+
+    .map{
+        width: 500px;
     }
 }
 
