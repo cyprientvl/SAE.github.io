@@ -337,6 +337,12 @@ ul li button{
 } 
 
 @media only screen and (max-width: 1020px) {
+
+    .listeactus, .listeversus {
+        width: 90%!important;
+    }
+
+
     header{
         position: fixed;
         top: 0;
@@ -423,6 +429,16 @@ ul li button{
     ul li input{
         width: 250px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .listeactus .block div{
+        display: block!important;
+        width: 100%!important;
+        margin: 40px 0!important;
+    }
+
 }
 
 /* fin nav */
