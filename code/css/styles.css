@@ -104,7 +104,7 @@ h2{
 .block{
     background-color: white;
     border-radius: 20px;
-    width: 100%;
+    width: calc(100% - 50px);
     height: auto;
 }
 
@@ -332,7 +332,7 @@ ul li button{
     }
 
     ul li input{
-        width: 120px;
+        width: 100%;
     }
 } 
 
