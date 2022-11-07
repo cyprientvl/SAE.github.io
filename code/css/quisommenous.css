@@ -2,7 +2,7 @@ section p{
     padding: 20px 20px 20px 20px;
 }
 
-#horaire{
+.horaire{
     padding: 0px 20px 0px 40px;
 }
 
@@ -20,7 +20,7 @@ img{
 }
 
 
-#flex{
+.flex{
     display: flex;
 }
 
@@ -81,7 +81,7 @@ img{
         width: 400px;
     }
 
-    #flex{
+    .flex{
         align-items: center;
     }
 }
@@ -91,7 +91,7 @@ img{
         width: 800px;
     }
 
-    #flex{
+    .flex{
         flex-direction: column;
 
     }
@@ -111,7 +111,7 @@ img{
         margin: 0;
     }
 
-    #flex{
+    .flex{
         margin: 0;
     }
 
