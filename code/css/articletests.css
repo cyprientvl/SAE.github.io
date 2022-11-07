@@ -1,0 +1,84 @@
+#first{
+    display: block;
+    width: 94%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+#first img{
+    width: 120px;
+}
+
+.block{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+ul{
+    list-style: none;
+}
+
+.part{
+    display: inline-block;
+}
+
+.part{
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.part li{
+    padding: 10px;
+}
+
+.score{
+    color: var(--blue);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+#infos{
+    width: 50%;
+    margin-right: 9%;
+}
+
+#infos p{
+    padding: 10px 25px;
+}
+
+.bottominfos{
+    padding-bottom: 50px;
+}
+
+#stats{
+    width: 40%;
+    text-align: center;
+}
+
+#stats .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stats h3{
+    padding: 20px;
+    font-size: 30px;
+}
+
+#stats .flex div{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: relative;
+}
+
+#stats .flex div p{
+    top: -67px;
+    position: relative;
+}
