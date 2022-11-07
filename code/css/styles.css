@@ -170,6 +170,11 @@ header nav div ul li a{
     position: relative;
     transition: .2s;
 }
+
+.quisommesnous{
+    min-width: 150px;
+}
+
 header nav div ul li a::before{
     content: "";
     position: absolute;
