@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/actus.css">
-	<!-- Font Awesome Icon Library -->
+    <!-- Font Awesome Icon Library -->
     <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
-	<title>Actus</title>
+    <script type="text/javascript" src="js/pagination.js"></script>
+    <title>HIGH TECH COMPARE - Nos derniers articles</title>
 </head>
 <body>
-	<header>
-		<nav>
+    <header>
+        <nav>
             <a href="index.html" id="logoclick"><img src="img/logo.png" alt="logo" id="logo"></a>
             <div id="nav-icon4">
                 <span></span>
@@ -27,96 +28,128 @@
                     <li><a href="actus.html" class="active">Actus</a></li>
                     <li><a href="versus.html">Versus</a></li>
                     <li><a href="tests.html">Tests</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.html">Connexion</a></li>
                     <li class="quisommesnous"><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
                 </ul>
             </div>
-		</nav>
-	</header>
+        </nav>
+    </header>
 
-    <div class="frame">
-		<section>
-			<h2>Actualités</h2>
-        </section>
-        <section>
+    <div>
+        <section id="actus">
+            <h1>Actualités</h1>
             
-            <section id="actus">
-                
-                <div class="listeactus">
-                    <h3>Les derniers articles</h3>
-                    <article class="block" id="premier">
-                        <div>
-                            <h3>Article 1</h3>
-                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                            <a href="articles.html">Continuer de lire</a>
-                            <p>Il y a 25 minutes</p>
-                        </div>
-                        <div>
-                            <img src="img/actus/nvidia-geforce-rtx-4090-test-frandroid-12-scaled 1.png">
-                        </div>
-                    </article>
-    
-                    <article class="block">
-                        <div>
-                            <img src="img/actus/raw 1.png">
-                        </div>
-                        <div>
-                            <h3>Article 2</h3>
-                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                            <a href="articles.html">Continuer de lire</a>
-                            <p>Il y a 1 heure</p>
-                        </div>
-                    </article>
-    
-                    <article class="block">
-                        <div>
-                            <h3>Article 3</h3>
-                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                            <a href="articles.html">Continuer de lire</a>
-                            <p>Il y a 2 heures</p>
-                        </div>
-                        <div>
-                            <img src="img/actus/montre 1.png">
-                        </div>
-                    </article>
+            <div class="listeactus">
+                <h2 class="sous">Les derniers articles</h2>
+                <article class="block" id="premier">
+                    <div>
+                        <h3>Article 1</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 25 minutes</p>
+                    </div>
+                    <div>
+                        <img src="img/actus/nvidia-geforce-rtx-4090-test-frandroid-12-scaled 1.png" alt="image article">
+                    </div>
+                </article>
 
-                    <article class="block">
-                        <div>
-                            <img src="img/actus/raw 1.png">
-                        </div>
-                        <div>
-                            <h3>Article 4</h3>
-                            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                            <a href="articles.html">Continuer de lire</a>
-                            <p>Il y a 3 heures</p>
-                        </div>
-                    </article>
-                </div>
-            </section>
+                <article class="block">
+                    <div>
+                        <img src="img/actus/raw 1.png" alt="image article">
+                    </div>
+                    <div>
+                        <h3>Article 2</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 1 heure</p>
+                    </div>
+                </article>
+
+                <article class="block">
+                    <div>
+                        <h3>Article 3</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 2 heures</p>
+                    </div>
+                    <div>
+                        <img src="img/actus/montre 1.png"  alt="image article">
+                    </div>
+                </article>
+                <article class="block">
+                    <div>
+                        <img src="img/actus/raw 1.png"  alt="image article">
+                    </div>
+                    <div>
+                        <h3>Article 4</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 3 heures</p>
+                    </div>
+                </article>
+                <article class="block">
+                    <div>
+                        <h3>Article 5</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 4 heures</p>
+                    </div>
+                    <div>
+                        <img src="img/actus/montre 1.png"  alt="image article">
+                    </div>
+                </article>
+                <article class="block">
+                    <div>
+                        <img src="img/actus/raw 1.png"  alt="image article">
+                    </div>
+                    <div>
+                        <h3>Article 6</h3>
+                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                        <a href="articles.html">Continuer de lire</a>
+                        <p>Il y a 8 heures</p>
+                    </div>
+                </article>
+            </div>
         </section>
+
+        <div id="conteneur">
+            <div id="contenu">
+                <div id="auCentre">
+                            
+                      <a href="actus.html#actus" class="btn actif" id="lien1" onclick="change(1)">1</a>
+                      <a href="actus.html#actus" class="btn" id="lien2" onclick="change(2)">2</a>
+                      <a href="actus.html#actus" class="btn" id="lien3" onclick="change(3)">3</a>
+                      <a href="actus.html#actus" class="btn" id="lien4" onclick="change(4)">4</a>
+                </div>
+            </div>
+        </div>
 
     </div>
 
     <footer>
-        <div>
-            <strong><p>Nous contacter</p></strong>
-            <p>e-mail</p>
-            <p>Support</p>
-            <p>Tel : 00 00 00 00</p>
+        <div class="leftfoot">
+            <div>
+                <strong><p>Nous contacter</p></strong>
+                <p>e-mail</p>
+                <p>Support</p>
+                <p>Tel : 00 00 00 00</p>
+            </div>
+            <div>
+                <strong><p>À propos</p></strong>
+                <p>Accueil</p>
+                <p>Condition générales</p>
+                <p>Données personnelles</p>
+            </div>
+            <div>
+                <strong><p>Les réseaux</p></strong>
+                <div class="test"><i class="fa-brands fa-instagram"></i><p> Instagram</p></div>
+                <p>Indeed</p>
+                <div class=test><i class="fa-brands fa-youtube"></i><p> Youtube</p></div>
+            </div>
         </div>
-        <div>
-            <strong><p>À propos</p></strong>
-            <p>Accueil</p>
-            <p>Condition générales</p>
-            <p>Données personnelles</p>
+        <div class="rightfoot">
+            <span>Copyright © 2022 High Tech Compare. All rights reserved</span>
         </div>
-        <div>
-            <strong><p>Les réseaux</p></strong>
-            <div class="test"><i class="fa-brands fa-instagram"></i><p> Instagram</p></div>
-            <p>Indeed</p>
-            <div class=test><i class="fa-brands fa-youtube"></i><p> Youtube</p></div>
-        </div>
-        <span>Copyright © 2022 High Tech Compare. All rights reserved.</span>
     </footer>
     <script src="js/nav.js"></script>
 </body>
