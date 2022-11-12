@@ -101,6 +101,27 @@ ul{
 
 #color{
     padding: 30px;
+    position: relative;   
+}
+
+#color:before{
+    content: "10";
+    z-index: 1;
+    position: absolute;
+    left: 0;
+}
+
+#color div:nth-child(1){
+    position: relative;
+}
+
+#color div:nth-child(1):after{
+    content: "0";
+    z-index: 1;
+    position: absolute;
+    left: -50%;
+    top: 100%;
+
 }
 
 #color div{
