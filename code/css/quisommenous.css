@@ -2,7 +2,7 @@ section p{
     padding: 20px 20px 20px 20px;
 }
 
-#horaire{
+.horaire{
     padding: 0px 20px 0px 40px;
 }
 
@@ -10,7 +10,7 @@ section p{
     height: auto;
 }
 
-img{
+section img{
     width: 700px;
     padding: 10px 10px 10px 10px;
 }
@@ -19,7 +19,8 @@ img{
     margin: 50px 50px 50px 50px;
 }
 
-#flex{
+
+.flex{
     display: flex;
 }
 
@@ -75,9 +76,24 @@ img{
     user-select: none;
 }
 
+@media screen and (max-width:  1730px){
+    .block img{
+        width: 400px;
+    }
+
+    .flex{
+        align-items: center;
+    }
+}
+
 @media screen and (max-width:  1340px){
     .visu{
         width: 800px;
+    }
+
+    .flex{
+        flex-direction: column;
+
     }
 }
 
@@ -88,6 +104,19 @@ img{
 
     .content-img img{
         opacity: 1 !important;
+    }
+
+    .frame{
+        width: 100%;
+        margin: 0;
+    }
+
+    .flex{
+        margin: 0;
+    }
+
+    .map{
+        width: 500px;
     }
 }
 

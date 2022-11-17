@@ -104,7 +104,7 @@ h2{
 .block{
     background-color: white;
     border-radius: 20px;
-    width: 100%;
+    width: calc(100% - 50px);
     height: auto;
 }
 
@@ -170,6 +170,11 @@ header nav div ul li a{
     position: relative;
     transition: .2s;
 }
+
+.quisommesnous{
+    min-width: 140px;
+}
+
 header nav div ul li a::before{
     content: "";
     position: absolute;
@@ -332,11 +337,21 @@ ul li button{
     }
 
     ul li input{
-        width: 120px;
+        width: 100%;
     }
 } 
 
 @media only screen and (max-width: 1020px) {
+
+    .listeactus, .listeversus {
+        width: 90%!important;
+    }
+
+    .frame{
+        width: 90%;
+    }
+
+
     header{
         position: fixed;
         top: 0;
@@ -421,8 +436,18 @@ ul li button{
     }
 
     ul li input{
-        width: 250px;
+        width: calc(100% - 100px);
     }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .listeactus .block div{
+        display: block!important;
+        width: 100%!important;
+        margin: 40px 0!important;
+    }
+
 }
 
 /* fin nav */
@@ -431,34 +456,25 @@ ul li button{
 
 footer {
     display: flex;
+    justify-content: space-between;
     background-color: var(--blue);
     color: white;
     margin-top: 100px;
     
 }
 footer p{
-    margin: 20px auto;
+    margin: 20px 0px;
 }
 footer div{
-    margin-left: 50px;
     margin-right: 50px;
-    margin: 10px auto;
     
 }
-footer span{
-    display: flex;
-    align-items: end;
-    margin-left: 800px;
-    margin-bottom: 20px;
-}
 
-div.test{
+
+div.test, div.test p{
     margin: 0px;
 }
 
-div.test p{
-    margin: 0px;
-}
 
 .test{
     display: flex;
@@ -466,6 +482,36 @@ div.test p{
 }
 
 
+
+.leftfoot, .rightfoot{
+    padding-top: 20px;
+}
+
+.leftfoot{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.rightfoot{
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
 footer i{
     margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 1140px){
+    footer{
+        flex-direction: column;
+    }
+
+    .rightfoot{
+        padding: 20px 40px;
+    }
 }

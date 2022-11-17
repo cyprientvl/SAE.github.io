@@ -1,6 +1,9 @@
 #index-top{
     min-height: 100vh;
     position: relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 60%);
+    border-radius: 10px;
 }
 
 #index-top img{
@@ -22,10 +25,9 @@
     transition: .2s;
 }
 
-.listeactus, .listeversus{
+.listeactus{
     width: 50%;
     margin: auto;
-    padding: 50px;
 }
 
 h3{
@@ -35,6 +37,7 @@ h3{
 
 .block{
     padding: 25px;
+    width: calc(100% - 50px);
     margin: 70px 0;
 }
 
@@ -42,6 +45,9 @@ h3{
 .listeversus{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    margin: 50px auto;
 }
 
 .listeversus .block{
@@ -72,4 +78,27 @@ h3{
 }
 .listeversus .block div:nth-of-type(3) p:nth-last-of-type(2){
     text-align: left;
+}
+
+@media screen and (max-width: 1200px){
+    #index-top img{
+        width: 30%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    #index-top img:nth-of-type(1) {
+        top: 5%;
+        left: 0;
+    }
+
+    #index-top{
+        min-height: 75vh;
+    }
 }

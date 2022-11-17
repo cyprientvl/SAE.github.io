@@ -40,9 +40,12 @@ h1 span::after{
 }
 
 .listeactus, .listeversus{
-    width: 50%;
+    width: 60%;
     margin: auto;
-    padding: 20px;
+}
+
+.sous{
+    text-align: center;
 }
 
 h3{

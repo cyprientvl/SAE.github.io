@@ -1,5 +1,5 @@
 .listeactus{
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 50px;
 }
@@ -88,4 +88,30 @@ section{
     position: absolute;
     right: 0;
     top: -200px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1020px){
+    .etoile{
+        display: none;
+    }
+    #projecteur{
+        display: none;
+    }
+    .listeactus .block div img {
+        width: auto;
+        max-height: 150px;
+    }
+    .listeactus{
+        padding: 25px 0;
+    }
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 40px;
+    }
 }
