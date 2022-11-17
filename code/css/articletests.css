@@ -104,11 +104,12 @@ ul{
     position: relative;   
 }
 
-#color:before{
+#color div:nth-child(1):before{
     content: "10";
     z-index: 1;
     position: absolute;
-    left: 0;
+    left: -50%;
+    top: -45%;
 }
 
 #color div:nth-child(1){
