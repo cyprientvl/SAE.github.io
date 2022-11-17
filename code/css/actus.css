@@ -46,6 +46,7 @@ h1 span::after{
 
 .sous{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 h3{
@@ -66,13 +67,14 @@ h3{
 
 .listeactus .block div p{
     margin: 15px 0;
-    max-width: 80%;
+    max-width: 96%;
     text-align: justify;
 }
 
 .listeactus .block div img{
     margin: auto;
     width: 80%;
+    border-radius: 40px;
     display: block;
 }
 
