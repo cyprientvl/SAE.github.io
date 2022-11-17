@@ -58,9 +58,10 @@ h3{
 
 .listeversus .block div:nth-of-type(1) img{
     position: relative;
-    height: 150px;
+    max-height: 150px;
     display: inline-block;
     margin: 20px;
+    max-width: 200px;
 }
 
 .listeversus .block .line-blue{
@@ -75,9 +76,11 @@ h3{
 
 .listeversus .block div:nth-of-type(3) p:nth-last-of-type(1){
     text-align: right;
+    vertical-align: top;
 }
 .listeversus .block div:nth-of-type(3) p:nth-last-of-type(2){
     text-align: left;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 1200px){
