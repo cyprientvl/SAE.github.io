@@ -1,0 +1,305 @@
+#first{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 30px 0;
+    justify-content: space-between;
+    align-content:flex-start;
+}
+
+#first img{
+    width: 120px;
+}
+
+.block{
+    position: relative;
+    vertical-align: top;
+}
+
+ul{
+    list-style: none;
+}
+
+.part{
+    display: inline-block;
+}
+
+.part{
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.part li{
+    padding: 10px;
+}
+
+.score{
+    color: var(--blue);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+}
+
+#infos{
+    width: 50%;
+}
+
+#infos p{
+    padding: 10px 25px;
+}
+
+.bottominfos{
+    padding-bottom: 50px;
+}
+
+#stats{
+    width: 25%;
+    text-align: center;
+}
+
+#stats .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stats h3{
+    padding: 20px;
+    font-size: 30px;
+}
+
+#stats .flex div{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: relative;
+}
+
+#stats .flex div p{
+    top: -67px;
+    position: relative;
+}
+
+#second{
+    width: 75%;
+    margin: auto;
+}
+
+#second .block{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#infosecond{
+    width: 500px;
+    padding: 30px;
+}
+
+#color{
+    padding: 30px;
+    position: relative;   
+}
+
+#color div:nth-child(1):before{
+    content: "10";
+    z-index: 1;
+    position: absolute;
+    left: -50%;
+    top: -40%;
+}
+
+#color div:nth-child(1){
+    position: relative;
+}
+
+#color div:nth-child(1):after{
+    content: "0";
+    z-index: 1;
+    position: absolute;
+    left: -50%;
+    top: 100%;
+
+}
+
+#color div{
+    width: 60px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#color div:nth-child(1){
+    background-color: #A8385D;
+    height: 160px;
+}
+#color div:nth-child(2){
+    background-color: #7AA3E5;
+}
+#color div:nth-child(3){
+    background-color: #A27EA8;
+    height: 150px;
+}
+#color div:nth-child(4){
+    background-color: #AAE3F5;
+    height: 150px;
+}
+#color div:nth-child(5){
+    background-color: #ADCDED;
+    height: 140px;
+}
+#color div:nth-child(6){
+    background-color: #A95963;
+    height: 150px;
+}
+
+#second ul{
+    padding: 30px;
+}
+
+#second ul li{
+    padding: 20px;
+}
+
+#second ul li span{
+    color: #928F8F;
+}
+
+#second ul li p{
+    margin-left: 20px;
+}
+
+#bar{
+    padding: 20px;
+}
+
+#bar .longbar{
+    width: 425px;
+
+    margin: 30px 0;
+}
+
+.longbar div{
+    width: calc(100% / 3 - 4px);
+    height: 12px;
+    display: inline-block;
+}
+
+.longbar2 div{
+    width: calc(100% / 2 - 4px);
+}
+
+.longbar div:nth-of-type(1){
+    background-color: #A8385D;
+}
+
+.longbar div:nth-of-type(2){
+    background-color: #7AA3E5;
+}
+
+.longbar div:nth-of-type(3){
+    background-color: #A27EA8;
+}
+
+#ads{
+    display: block;
+    text-align: center;
+    margin: 100px auto;
+}
+
+#ads a{
+    color: white;
+    background-color: var(--blue);
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#more{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#more .block{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+#more .block img{
+    width: 160px;
+    display: block;
+    margin: 20px auto;
+}
+
+#more .block h3{
+    font-size: 30px;
+}
+
+#more .block p{
+    padding: 20px;
+}
+
+h2{
+    padding: 40px;
+}
+
+@media only screen and (max-width: 1500px) {
+    #stats{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 1175px) {
+    #stats{
+        width: 40%;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #first{
+        flex-direction: column;
+    }
+
+    #infos, #stats, #more .block{
+        width: calc(100% - 20px);
+        margin: 20px auto;
+    }
+
+    #more{
+        flex-direction: column;
+    }
+
+    #infosecond, #bar, #bar .longbar, #color{
+        width: 100%;
+    }
+
+    #second .block{
+        padding: 10px;
+        width: calc(100% - 20px);
+    }
+
+    #second, #first{
+        width: 90%;
+    }
+
+    #color{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    #color div{
+        width: calc(100% / 7);
+    }
+}

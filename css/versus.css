@@ -1,0 +1,249 @@
+main{
+    width: 90%;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(96,141,243,1) 0%, rgba(46,107,245,1) 100%); 
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .absoimg1{
+    position: absolute;
+    width: 180px;
+    height: 140px;
+    transform: rotate(20deg);
+    top: 60%;
+    left: 10%;
+    opacity: 0.5;
+}
+
+main .absolutone{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    opacity: 0.5;
+    color: #08264A;
+    font-weight: bolder;
+    transform: rotate(-40deg);
+    font-size: 90px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.input{
+   
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 200px;
+
+    border-left: 2px solid white;
+    margin-top: 100px;
+    position: relative;
+}
+
+.input:before{
+    content: "VS";
+    position: absolute;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -40px;
+    font-size: 20px;
+}
+
+
+.input input{
+    margin: 0px 10px;
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    color: #867777;
+    padding-left: 10px;
+}
+
+.inone{
+    margin-bottom: 15px !important;
+    margin-top: 10px !important;
+}
+
+.intwo{
+    margin-bottom: 10px !important;
+    margin-top: 15px !important;
+}
+
+.comparer{
+    background-color: #2E6BF5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.comparer:hover{
+    transform: scale(1.1);
+}
+
+
+.comparer p{
+    color: white;
+    padding: 5px;
+}
+
+.flechebot{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.flechebot img{
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.flechebot img:hover{
+    transform: rotate(360deg);
+}
+
+div.versus-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div.versus-bottom a{
+    width: 70%;
+    margin: 30px 0px;
+    color: black;
+
+}
+
+
+.block{
+    
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height: 150px;
+}
+
+
+
+.left, .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    background-color: transparent;
+    height: 100%;
+    width: 48%;
+}
+
+.left img, .right img{
+    
+    height: 130px;
+    width: 142px;
+}
+
+.mid .line{
+    height: 40%;
+    width: 3px;
+    background-color: var(--blue);
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid .vs{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left h3, .right h3{
+    margin: 0px 50px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.transipage{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    background-color: var(--blue);
+    transition: 0.3s;
+    z-index: 11 !important;
+   
+}
+
+.opentransi{
+    height: 200vh;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1021px){
+    main{
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (max-width:  646px){
+
+    main .absolutone{
+        left: 70%;
+    }
+
+    .flechebot{
+        margin-top: 20px;
+        z-index: 1;
+    }
+
+    .input{
+        margin-top: 50px;
+    }
+
+    .block img{
+        width: 100px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:  1260px){
+
+    .right h3, .left h3{
+        display: none;
+    }
+
+}
+
