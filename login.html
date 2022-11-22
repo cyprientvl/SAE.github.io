@@ -38,70 +38,71 @@
 
     <main id="loginMainpage">
 
-        <div class="responsive">
+        <section class="responsive">
             <div class="google" OnClick="openconnecter()">
                 <i class="fa-solid fa-power-off"></i>
-                <p>Se connecter</p> 
+                <h6>Se connecter</h6> 
             </div>
 
             <div class="sep">
                 <div class="line"></div>
-                <p>ou</p>
+                <strong>ou</strong>
                 <div class="line"></div>    
             </div>
 
             <div class="google" OnClick="openregister()">
                 <i class="fa-solid fa-door-closed"></i>
-                <p>S'inscrire</p> 
+                <h6>S'inscrire</h6> 
             </div>
 
-        </div>
+        </section>
+
+
     
-        <div class="connextion">
+        <section class="connextion">
 
             <div class="retour" OnClick="back()">
                 <i class="fa-solid fa-right-from-bracket"></i>
                 <p>retour</p>
             </div>
 
-            <h1>Se connecter</h1>
+            <h2>Se connecter</h2>
             <form>
                 <input type="text"  placeholder="E-mail/Nom d'utilisateur">
                 <input type="password"  placeholder="Mot de passe">
 
-
-                <input type="submit"  value="continuer">
+                <input type="submit"  value="continuer">    
+                
             </form>
 
             
             <div class="sep">
                 <div class="line"></div>
-                <p>ou</p>
+                <strong>ou</strong>
                 <div class="line"></div>    
             </div>
 
+            <a href="https://accounts.google.com/">
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <em>Se connecter avec Google</em> 
+                </div>
+            </a>
 
-            <div class="google">
-                <i class="fa-brands fa-google"></i>
-                <p>Se connecter avec Google</p> 
-            </div>
 
-
-
-        </div>
+        </section>
 
         <div class="mid"></div>
 
         
-
-        <div class="register">
+        <section class="register">
 
             <div class="retour" OnClick="back()">
                 <i class="fa-solid fa-right-from-bracket"></i>
                 <p>retour</p>
             </div>
             
-            <h1>S'inscrire</h1>
+            <h2>S'inscrire</h2>
             <form>
                 <div class="nom-prenom">
                     <input type="text"  placeholder="Nom">
@@ -109,27 +110,28 @@
                 </div>
                 <input type="text"  placeholder="E-mail">
                 <input type="password"  placeholder="Mot de passe">
+
                 <input type="submit"  value="S'inscrire">
+                
+
             </form>
 
             <div class="sep">
                 <div class="line"></div>
-                <p>ou</p>
+                <strong>ou</strong>
                 <div class="line"></div>    
             </div>
 
-
-            <div class="google">
-                <i class="fa-brands fa-google"></i>
-                <p>S'inscrire avec Google</p> 
-            </div>
-        </div>
-
+            <a href="https://accounts.google.com/">
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <em>S'inscrire avec Google</em> 
+                </div>
+            </a>
+        
+        </section>
     </main>
 
-
-
-    
     <script src="js/nav.js"></script>
     <script src="js/login.js"></script>
 

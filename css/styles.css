@@ -12,6 +12,10 @@
     outline: none!important;
 }
 
+em{
+    font-style: normal;
+}
+
 a{
     color: var(--blue);
     text-decoration: none;
@@ -1379,7 +1383,12 @@ footer i{
     padding-top: 50px;
 }
 
-#loginMainpage h1{
+#loginMainpage em{
+    font-style: normal;
+
+}
+
+#loginMainpage h2{
     
     font-size: 40px;
     padding: 0px;
@@ -1395,9 +1404,11 @@ footer i{
     margin-top: 20px;
 }
 
-#loginMainpage .sep p{
+#loginMainpage .sep strong{
     padding: 0px 5px;
 }
+
+
 
 #loginMainpage div.mid{
     height: 50%;
@@ -1434,7 +1445,7 @@ footer i{
     color: blue;
 }
 
-#loginMainpage .google p{
+#loginMainpage .google em{
     padding: 0 20px;
 }
 
@@ -1452,6 +1463,10 @@ footer i{
     padding-left: 10px;
     padding: 2px;
     padding-left: 10px;
+    width: 100%;
+}
+
+#loginMainpage a{
     width: 100%;
 }
 
@@ -1497,6 +1512,11 @@ footer i{
     display: none;
     background-color: var(--blue);
     width: 300px;
+}
+
+#loginMainpage .responsive h6{
+    font-size: 15px;
+    font-style: normal;
 }
 
 #loginMainpage .responsive .google{
@@ -1597,12 +1617,13 @@ footer i{
     display: flex;
 }
 
-#produitversusMainpage .frame-top p{
+#produitversusMainpage .frame-top h2{
     margin: 0px 10px;
     font-size: 20px;
     position: relative;
     cursor: pointer;
     transition: 0.3s;
+    font-style: normal;
 }
 
 
