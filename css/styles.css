@@ -1915,11 +1915,21 @@ footer i{
 #produitversusMainpage .add-avis{
     border: 1px solid var(--blue);
     color: var(--blue);
-    padding: 5px 10px;
     font-size: 15px;
     transition: 0.3s;
     cursor: pointer;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+#produitversusMainpage .add-avis a{
+    padding: 5px 10px;
+    margin: 0;
+
+}
+
 
 #produitversusMainpage .add-avis:hover{
     background-color: var(--blue);
