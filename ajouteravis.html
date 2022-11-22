@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.min.css">
+	<title>HIGH TECH COMPARE - Ajouter un avis</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logoclick"><img src="img/logo.png" alt="logo" id="logo"></a>
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <input type="text" name="search" placeholder="Rechercher">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </li>
+                    <li><a href="actus.html">Actus</a></li>
+                    <li><a href="versus.html">Versus</a></li>
+                    <li><a href="tests.html">Tests</a></li>
+                    <li><a href="login.html">Connexion</a></li>
+                    <li class="quisommesnous"><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+	<main id="ajouteravisMainpage">
+		<div class="frame">
+			<div class="block">
+				<h1>Ajouter un avis</h1>
+
+				<div class="flex">
+					<div class="left">
+						<img src="img/iphone13.png"  alt="image article">
+						<p>Apple</p>
+
+						<div class="date">
+							<p>Date de sortie:</p>
+							<p>13/10/2020</p>
+
+						</div>
+
+						<p>809 €</p>
+
+					</div>
+
+					<div class="right">
+
+						<input type="text"  placeholder="Nom utilisateur">
+						<input type="text"  placeholder="Iphone 12">
+
+						<h2>Ajouter une note</h2>
+
+						<div class="star">
+							<i onclick="star(1)" id="etoile1" class="fa-solid fa-star"></i>
+							<i onclick="star(2)" id="etoile2" class="fa-solid fa-star"></i>
+							<i onclick="star(3)" id="etoile3" class="fa-solid fa-star"></i>
+							<i onclick="star(4)" id="etoile4" class="fa-solid fa-star"></i>
+							<i onclick="star(5)" id="etoile5" class="fa-solid fa-star"></i>
+						</div>
+
+
+						<h3>Commentaire</h3>
+
+						<textarea></textarea>
+
+						<div class="publier">
+							<a href="produitversus.html">Publier</a>
+						</div>
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div class="leftfoot">
+			<div>
+				<p><strong>Nous contacter</strong></p>
+				<p>e-mail</p>
+				<p>Support</p>
+				<p>Tel : 00 00 00 00</p>
+			</div>
+			<div>
+				<p><strong>À propos</strong></p>
+				<p>Accueil</p>
+				<p>Condition générales</p>
+				<p>Données personnelles</p>
+			</div>
+			<div>
+				<p><strong>Les réseaux</strong></p>
+				<div class="test"><i class="fa-brands fa-instagram"></i><p> Instagram</p></div>
+				<p>Indeed</p>
+				<div class=test><i class="fa-brands fa-youtube"></i><p> Youtube</p></div>
+			</div>
+		</div>
+		<div class="rightfoot">
+			<span>Copyright © 2022 High Tech Compare. All rights reserved</span>
+		</div>
+	</footer>
+
+	<script src="js/nav.js"></script>
+	<script src="js/ajouteravis.js"></script>
+</body>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.min.css">
+    <title>HIGH TECH COMPARE - Connexion</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" id="logoclick"><img src="img/logo.png" alt="logo" id="logo"></a>
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <input type="text" name="search" placeholder="Rechercher">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </li>
+                    <li><a href="actus.html">Actus</a></li>
+                    <li><a href="versus.html">Versus</a></li>
+                    <li><a href="tests.html">Tests</a></li>
+                    <li><a href="login.html" class="active">Connexion</a></li>
+                    <li class="quisommesnous"><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main id="loginMainpage">
+
+        <div class="responsive">
+            <div class="google" OnClick="openconnecter()">
+                <i class="fa-solid fa-power-off"></i>
+                <p>Se connecter</p> 
+            </div>
+
+            <div class="sep">
+                <div class="line"></div>
+                <p>ou</p>
+                <div class="line"></div>    
+            </div>
+
+            <div class="google" OnClick="openregister()">
+                <i class="fa-solid fa-door-closed"></i>
+                <p>S'inscrire</p> 
+            </div>
+
+        </div>
+    
+        <div class="connextion">
+
+            <div class="retour" OnClick="back()">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>retour</p>
+            </div>
+
+            <h1>Se connecter</h1>
+            <form>
+                <input type="text"  placeholder="E-mail/Nom d'utilisateur">
+                <input type="password"  placeholder="Mot de passe">
+
+
+                <input type="submit"  value="continuer">
+            </form>
+
+            
+            <div class="sep">
+                <div class="line"></div>
+                <p>ou</p>
+                <div class="line"></div>    
+            </div>
+
+
+            <div class="google">
+                <i class="fa-brands fa-google"></i>
+                <p>Se connecter avec Google</p> 
+            </div>
+
+
+
+        </div>
+
+        <div class="mid"></div>
+
+        
+
+        <div class="register">
+
+            <div class="retour" OnClick="back()">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>retour</p>
+            </div>
+            
+            <h1>S'inscrire</h1>
+            <form>
+                <div class="nom-prenom">
+                    <input type="text"  placeholder="Nom">
+                    <input type="text"  placeholder="Prenom">
+                </div>
+                <input type="text"  placeholder="E-mail">
+                <input type="password"  placeholder="Mot de passe">
+                <input type="submit"  value="S'inscrire">
+            </form>
+
+            <div class="sep">
+                <div class="line"></div>
+                <p>ou</p>
+                <div class="line"></div>    
+            </div>
+
+
+            <div class="google">
+                <i class="fa-brands fa-google"></i>
+                <p>S'inscrire avec Google</p> 
+            </div>
+        </div>
+
+    </main>
+
+
+
+    
+    <script src="js/nav.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
+
