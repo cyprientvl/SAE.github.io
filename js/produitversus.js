@@ -7,8 +7,8 @@ setTimeout(() =>{
 }, 500);
 
 
-let btn1 = document.querySelector("div.frame-top p.one");
-let btn2 = document.querySelector("div.frame-top p.two");
+let btn1 = document.querySelector("div.frame-top h2.one");
+let btn2 = document.querySelector("div.frame-top h2.two");
 let content = document.querySelector("div.scroll");
 
 btn1.addEventListener("click", ()=>{
