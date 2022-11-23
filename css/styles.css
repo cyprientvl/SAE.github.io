@@ -677,6 +677,30 @@ footer i{
     display: flex;
 }
 
+#ajouteravisMainpage a{
+    margin-left: 0;
+}
+
+#ajouteravisMainpage .comm{
+    color: black;
+}
+
+#ajouteravisMainpage section{
+    display: flex;
+
+}
+
+#ajouteravisMainpage section div:nth-child(2){
+    border: none !important;
+
+}
+
+
+#ajouteravisMainpage section div:nth-child(2) a{
+    color: black;
+    text-decoration: underline;
+}
+
 #ajouteravisMainpage h1{
     padding: 10px;
     font-size: 40px;
@@ -701,7 +725,7 @@ footer i{
 
 }
 
-#ajouteravisMainpage .left p{
+#ajouteravisMainpage .left p, #ajouteravisMainpage .left a, #ajouteravisMainpage .left em{
     font-size: 20px;
 }
 
