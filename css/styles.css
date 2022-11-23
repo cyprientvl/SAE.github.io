@@ -1301,10 +1301,13 @@ footer i{
     margin: auto;
 }
 
-#indexMainpage h2{
-    color: black;
+#indexMainpage h2, #indexMainpage h3{
     font-size: 30px;
     padding-bottom: 30px;
+}
+
+#indexMainpage h3{
+    margin-left: 0;
 }
 
 #indexMainpage .block h2{
