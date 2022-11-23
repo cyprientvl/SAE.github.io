@@ -1325,12 +1325,12 @@ footer i{
     margin: auto;
 }
 
-#indexMainpage h2, #indexMainpage h3{
+#indexMainpage h2, #indexMainpage h3, #actusMainpage h3{
     font-size: 30px;
     padding-bottom: 30px;
 }
 
-#indexMainpage h3{
+#indexMainpage h3, #actusMainpage h3{
     margin-left: 0;
 }
 
