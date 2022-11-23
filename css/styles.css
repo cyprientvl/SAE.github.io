@@ -91,6 +91,10 @@ h2{
     font-size: 50px;
 }
 
+h2.color{
+    color: var(--blue)!important;
+}
+
 .sous-titre{
     color: black;
     font-size: 15px;
@@ -128,10 +132,6 @@ h2{
     margin: auto;
     width: 80%;
     display: block;
-}
-
-.listeactus .block:nth-of-type(2n) div:nth-of-type(2) p, .block:nth-of-type(2n) div:nth-of-type(2) h3, .block:nth-of-type(2n) div:nth-of-type(2) a{
-    margin-left: 10%;
 }
 
 
@@ -583,6 +583,10 @@ footer i{
     margin: 70px 0;
 }
 
+#actusMainpage .listeactus .block h2{
+    text-align: left
+}
+
 #actusMainpage .listeactus .block div{
     display: inline-block;
     width: 49%;
@@ -600,10 +604,6 @@ footer i{
     width: 80%;
     border-radius: 40px;
     display: block;
-}
-
-#actusMainpage .listeactus .block:nth-of-type(2n) div:nth-of-type(2) p, .block:nth-of-type(2n) div:nth-of-type(2) h3, .block:nth-of-type(2n) div:nth-of-type(2) a{
-    margin-left: 10%;
 }
 
 
@@ -1303,6 +1303,10 @@ footer i{
     padding-bottom: 30px;
 }
 
+#indexMainpage .block h2{
+    text-align: left;
+}
+
 #indexMainpage .block{
     padding: 25px;
     width: calc(100% - 50px);
@@ -1329,7 +1333,7 @@ footer i{
     max-height: 150px;
     display: inline-block;
     margin: 20px;
-    max-width: 200px;
+    max-width: 130px;
 }
 
 #indexMainpage .listeversus .block .line-blue{
@@ -2315,7 +2319,7 @@ footer i{
     margin-bottom: 100px;
 }
 
-#testsMainpage .listeactus .block div:nth-of-type(2) p, .block div:nth-of-type(2) h3, .block div:nth-of-type(2) a{
+#testsMainpage .listeactus .block div:nth-of-type(2) p, .block div:nth-of-type(2) h3, #testsMainpage .block div:nth-of-type(2) a{
     margin-left: 10%;
 }
 
