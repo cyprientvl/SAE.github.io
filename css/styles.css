@@ -1248,7 +1248,7 @@ footer i{
 
 @media only screen and (max-width: 1175px) {
     #articlestestsMainpage #stats{
-        width: 40%;
+        width: 94%;
     }
     #articlestestsMainpage h1{
         font-size: 50px;
@@ -1261,7 +1261,7 @@ footer i{
     }
 
     #articlestestsMainpage #infos, #stats, #more .block{
-        width: calc(100% - 20px);
+        width: calc(100% - 20px)!important;
         margin: 20px auto;
     }
 
@@ -1270,6 +1270,10 @@ footer i{
     }
 
     #articlestestsMainpage #infosecond, #bar, #bar .longbar, #color{
+        width: 100%;
+    }
+
+    #articlestestsMainpage #bar .longbar{
         width: 100%;
     }
 
