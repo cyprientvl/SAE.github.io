@@ -668,16 +668,17 @@ footer i{
 
 #ajouteravisMainpage section{
     display: flex;
+    align-items: center;
 
 }
 
-#ajouteravisMainpage section div:nth-child(2){
+#ajouteravisMainpage section div:nth-child(3){
     border: none !important;
 
 }
 
 
-#ajouteravisMainpage section div:nth-child(2) a{
+#ajouteravisMainpage section div:nth-child(3) a{
     color: black;
     text-decoration: underline;
 }
@@ -706,8 +707,12 @@ footer i{
 
 }
 
-#ajouteravisMainpage .left p, #ajouteravisMainpage .left a, #ajouteravisMainpage .left em{
+#ajouteravisMainpage .left p, #ajouteravisMainpage .left a, #ajouteravisMainpage .left em, #ajouteravisMainpage .left h3{
     font-size: 20px;
+}
+
+#ajouteravisMainpage section h3{
+    margin-right: 20px;
 }
 
 #ajouteravisMainpage .left img{
@@ -767,7 +772,6 @@ footer i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
     transition: 0.3s;
     cursor: pointer;
 }
