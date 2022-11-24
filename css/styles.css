@@ -2168,11 +2168,15 @@ footer i{
 
 
 #quisommesnousMainpage .quiSommeSec p{
-    padding: 20px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
+}
+
+#quisommesnousMainpage .quiSommeSec h3{
+    padding: 0px 20px 10px 20px;
 }
 
 #quisommesnousMainpage .horaire{
-    padding: 0px 20px 0px 40px;
+    padding: 20px 20px 20px 40px;
 }
 
 #quisommesnousMainpage .frame{
