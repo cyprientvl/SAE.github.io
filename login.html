@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.min.css">
+    <link rel="icon" href="img/favicon.ico">
+    <title>HIGH TECH COMPARE - Connexion</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" id="logoclick"><img src="img/logo.png" alt="logo" id="logo"></a>
+            <div id="nav-icon4">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <input type="text" name="search" placeholder="Rechercher">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </li>
+                    <li><a href="actus.html">Actus</a></li>
+                    <li><a href="versus.html">Versus</a></li>
+                    <li><a href="tests.html">Tests</a></li>
+                    <li><a href="login.html" class="active">Connexion</a></li>
+                    <li class="quisommesnous"><a href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main id="loginMainpage">
+
+        <section class="responsive">
+            <div class="google" OnClick="openconnecter()">
+                <i class="fa-solid fa-power-off"></i>
+                <h6>Se connecter</h6> 
+            </div>
+
+            <div class="sep">
+                <div class="line"></div>
+                <strong>ou</strong>
+                <div class="line"></div>    
+            </div>
+
+            <div class="google" OnClick="openregister()">
+                <i class="fa-solid fa-door-closed"></i>
+                <h6>S'inscrire</h6> 
+            </div>
+
+        </section>
+
+
+    
+        <section class="connextion">
+
+            <div class="retour" OnClick="back()">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>retour</p>
+            </div>
+
+            <h2>Se connecter</h2>
+            <form>
+                <input type="text"  placeholder="E-mail/Nom d'utilisateur">
+                <input type="password"  placeholder="Mot de passe">
+
+                <input type="submit"  value="continuer">    
+                
+            </form>
+
+            
+            <div class="sep">
+                <div class="line"></div>
+                <strong>ou</strong>
+                <div class="line"></div>    
+            </div>
+
+            <a href="https://accounts.google.com/">
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <em>Se connecter avec Google</em> 
+                </div>
+            </a>
+
+
+        </section>
+
+        <div class="mid"></div>
+
+        
+        <article class="register">
+
+            <div class="retour" OnClick="back()">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <p>retour</p>
+            </div>
+            
+            <h2>S'inscrire</h2>
+            <form>
+                <div class="nom-prenom">
+                    <input type="text"  placeholder="Nom">
+                    <input type="text"  placeholder="Prenom">
+                </div>
+                <input type="text"  placeholder="E-mail">
+                <input type="password"  placeholder="Mot de passe">
+
+                <input type="submit"  value="S'inscrire">
+                
+
+            </form>
+
+            <div class="sep">
+                <div class="line"></div>
+                <strong>ou</strong>
+                <div class="line"></div>    
+            </div>
+
+            <a href="https://accounts.google.com/">
+                <div class="google">
+                    <i class="fa-brands fa-google"></i>
+                    <em>S'inscrire avec Google</em> 
+                </div>
+            </a>
+        
+        </article>
+    </main>
+
+    <script src="js/nav.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
+
